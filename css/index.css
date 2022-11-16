@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root {
+	--bg-colour: white;
+	--text-colour: black;
+}
+ body {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background-color: var(--bg-colour);
+	color: var(--text-colour);
+	font-family: 'Poppins', sans-serif;
+}
+
+.mid-container {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 130%;
+	padding: 30px;
+	border-style: solid;
+	border-radius: 10px;
+}
+
+.mid-container a {
+	font-weight: bolder;
+	color: var(--text-colour);
+}
+
+.mid-container btxt {
+	font-weight: bold;
+}
+
+.mid-container a:hover {
+	color: red;
+}
+
+.mid-container .bold-txt {
+	font-weight: bolder;
+}
+
+.title-wb {
+	position: absolute;
+	left: 49%;
+	top: 0%;
+	transform: translate(-49%, 0%);
+}
+
+.title-wb a {
+	text-decoration: none;
+	color: var(--text-colour);
+}
+
+.title-wb img {
+	height: 15px;
+	width: 15px;
+}
+
+.helpers {
+	position: absolute;
+	left: 3%;
+	bottom: 0%;
+}
+
+.helpers p {
+	text-decoration: none;
+	color: var(--text-colour);
+	cursor: auto;
+}
+
+.helpers h1 {
+	margin: 0;
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+.helpers p .jacob:hover:after {
+	content: " (Watched me code it)";
+}
+
+.helpers p .thomas:hover:after {
+	content: " (Actually coded it)";
+}
+
+.helpers p .owain:hover:after {
+	content: " (Watched me code it)";
+}
+
+
